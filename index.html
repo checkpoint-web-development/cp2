@@ -6,54 +6,58 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CP2</title>
+    <link rel="stylesheet" href="./css/estilização.css">
+
 </head>
 
 <body>
-    <header class="cabecalho">
-        <img src="./img/fiaplogoo.jpg" alt="Logo">
-        <nav>
+    <header class="cabecalho container"> 
+        <img class="logo" src="./img/globe.png" alt="logo">
+        <nav class="menu">
             <a href="index.html">Home</a>
-            <a href="games.html">Games</a>
-            <a href="mobile.html">Mobile</a>
-            <a href="tecnologia.html">Tecnologia</a>
+            <a href="./pages/games.html">Games</a>
+            <a href="./pages/mobile.html">Mobile</a>
+            <a href="./pages/tecnologia.html">Tecnologia</a>
         </nav>
     </header>
-    <section>
-        <div>
-            <h2>Games</h2>
+    <section class="container teste">
+        <div class="alinhamento-texto">
+            <h2>GAMES</h2>
             <figure>
-                <img src="./img/games.jpg" alt="Imagem de controle de vídeo games">
-                <figcaption>Jogos de vídeo games</figcaption>
+                <a href="./pages/games.html"><img class="conteudo" src="./img/games.jpg" alt="Imagem de controle de vídeo games"></a>
+                <figcaption>Jogos digitais</figcaption>
             </figure>
         </div>
-        <div>
-            <h2>Mobile</h2>
+        <div class="alinhamento-texto">
+            <h2>MOBILE</h2>
             <figure>
-                <img src="./img/mobile.webp" alt="Imagem de mobile">
-                <figcaption>Celulares</figcaption>
+                <a href="./pages/mobile.html"><img class="conteudo" src="./img/mobile.webp" alt="Imagem de mobile"></a>
+                <figcaption>Aplicações para aparelhos móveis</figcaption>
             </figure>
         </div>
-        <div>
-            <h2>Tecnologia</h2>
+        <div class="alinhamento-texto">
+            <h2>TECH</h2>
             <figure>
-                <img src="./img/tech.webp" alt="Imagem de tecnologia">
-                <figcaption>Tecnologia</figcaption>
+                <a href="./pages/tecnologia.html"><img class="conteudo" src="./img/tech.webp" alt="Imagem de tecnologia"></a>
+                <figcaption>Tecnologia e transformação</figcaption>
             </figure>
         </div>
     </section>
-    <footer>
-        <h2>CheckPoint2</h2>
-        <nav>
-            <a href="https://www.facebook.com/">
-                <img src="./img/face.png" alt="Logo do facebook">
+    <footer class="footer container">
+        <div>
+        <h2 class="texto-footer">REDES SOCIAIS</h2>
+        <nav class="align-icones">
+            <a href="https://www.facebook.com/" target="_blank">
+                <img class="icones" src="./img/facebook.svg" alt="Logo do facebook">
             </a>
-            <a href="https://twitter.com/">
-                <img src="./img/twitter.png" alt="Logo do twitter">
+            <a href="https://twitter.com/" target="_blank">
+                <img class="icones"src="./img/twitter.svg" alt="Logo do twitter">
             </a>
-            <a href="https://github.com/">
-                <img src="./img/git.png" alt="Logo do GitHub">
+            <a href="https://github.com/" target="_blank">
+                <img class="icones"src="./img/github.svg" alt="Logo do GitHub">
             </a>
         </nav>
+        </div>
     </footer>
 </body>
 
