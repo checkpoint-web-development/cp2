@@ -1,6 +1,26 @@
+@import url(cabecalho.css);
+@import url(conteudo.css);
+@import url(breakpoints.css);
+@import url(footer.css);
+
+@font-face {
+    font-family: Hurtmold-G5mA ;
+    src: url(fonts/Hurtmold-G5mA.otf);
+}
 *{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Hurtmold-G5mA';
+    font-weight: bold;
+    background-color: #F8FBFB;
+}
+
+.container{
+    margin: 0px auto;
+    max-width: 1200px;
+
 }
 

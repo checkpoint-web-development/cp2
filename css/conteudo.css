@@ -1,0 +1,25 @@
+.teste{
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-between;
+    padding-top: 60px;
+
+}
+
+.conteudo{
+    max-width: 350px;
+    border-radius: 10px;
+    border: 2px white solid;
+    
+}
+
+.conteudo:hover{
+    border: 2px #A4D6D7 solid;
+}
+
+.alinhamento-texto{
+    text-align: center;
+
+}
+
+

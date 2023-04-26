@@ -1,5 +1,26 @@
 .cabecalho{
+  align-items: center;  
   display: flex;
   flex-wrap: wrap; 
+  justify-content: space-between;
+  font-size: 15px;
     
+
+}
+
+.logo{
+    width: 200px;
+    height: 60px;
+    fill: aqua;
+}
+
+.menu a{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.menu a:hover{
+    color: #A4D6D7;
+
 }
