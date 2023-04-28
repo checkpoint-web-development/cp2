@@ -1,7 +1,7 @@
 @import url(cabecalho.css);
 @import url(conteudo.css);
-@import url(breakpoints.css);
 @import url(footer.css);
+@import url(games.css);
 
 @font-face {
     font-family: Hurtmold-G5mA ;
@@ -24,3 +24,33 @@
 
 }
 
+.img-txt{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: center;
+    justify-content: center;
+}
+
+h2{
+    text-align: center;
+    font-size: 32px;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 1100px) {
+    .container{
+        max-width: 900px;
+    }
+}
+
+@media (max-width: 900px) {
+    .container{
+        max-width: 700px;
+    }
+}
+
+@media (max-width: 550px) {
+    .container{
+        max-width: 360px;
+    }
+}

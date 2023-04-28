@@ -24,3 +24,13 @@
     color: #A4D6D7;
 
 }
+
+@media (max-width: 550px) {
+    .cabecalho{
+        justify-content: center !important ;
+        display: flex;
+    }
+    .menu{
+        margin-top: 10px;
+    }
+}
