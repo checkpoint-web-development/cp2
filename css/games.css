@@ -1,0 +1,78 @@
+*{
+    margin: 5px;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    color: inherit;
+    font-family: 'Hurtmold-G5mA';
+    font-weight: bold;
+    background-color: #F8FBFB;
+}
+
+.cabecalho{
+    align-items: center;  
+    display: flex;
+    flex-wrap: wrap; 
+    justify-content: space-between;
+    font-size: 15px;
+    margin-right: 225px;
+    
+}
+
+.logo{
+    width: 200px;
+    height: 60px;
+    fill: aqua;
+}
+
+.menu a{
+    padding-left: 10px;
+    padding-right: 10px;
+
+}
+
+.menu a:hover{
+    color: #A4D6D7;
+
+}
+
+h2 {
+    margin-top: 100px;
+}
+
+p {
+    font-size: large;
+}
+
+.game {
+    height: 250px;
+    width: 500px;
+    display: block;
+    float: left;
+    border: transparent thin solid;
+    margin: 0px 10px 10px 0;
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 60px;
+    margin-top: 5%;
+}
+
+.align-icones{
+    display: flex;
+    justify-content: center;
+    margin-left: -10px;
+
+}
+
+.icones{
+    width: 50px;
+    height: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    fill: aqua;
+}
+
